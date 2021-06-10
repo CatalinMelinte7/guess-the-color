@@ -55,3 +55,9 @@ img {
     top: 180px;
     visibility: hidden;
 }
+
+p {
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+}

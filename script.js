@@ -24,7 +24,7 @@ function randomizeColors() {
     }
     winnerIndex = getRandomInt(buttons.length);
     winnerColor = colors[winnerIndex];
-    heading.innerHTML = 'RGB: (' + winnerColor.red + ', ' + winnerColor.green + ', ' + winnerColor.blue + ')';
+    heading.innerHTML = 'RGB code: (' + winnerColor.red + ', ' + winnerColor.green + ', ' + winnerColor.blue + ')';
 }
 
 function getRandomInt(nr) {
